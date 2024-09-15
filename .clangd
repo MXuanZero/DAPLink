@@ -1,0 +1,8 @@
+CompileFlags:
+  CompilationDatabase: projectfiles/make_gcc_arm/stm32f103xb_stm32f103rb_if
+  Add:
+    - --target=arm-none-eabi
+    - -I/usr/lib/gcc/arm-none-eabi/13.2.1/include
+    - -I/usr/lib/gcc/arm-none-eabi/13.2.1/include-fixed
+    - -I/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/include
+

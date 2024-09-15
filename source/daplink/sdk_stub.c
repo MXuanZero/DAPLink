@@ -25,3 +25,14 @@ __WEAK void sdk_init()
 {
     // Do nothing
 }
+
+__WEAK int _isatty(int fd) { return 0; }
+
+__WEAK int _write(int fd, char *ptr, int len) { return 0; }
+
+__WEAK int _close(int fd) { return 0; }
+
+__WEAK int _lseek(int fd, int ptr, int dir) { return 0; }
+
+__WEAK int _read(int fd, char *ptr, int len) { return 0; }
+
