@@ -98,3 +98,4 @@ mbed-os/
 
 #vscode editor
 .vscode
+!.vscode/tasks.json
